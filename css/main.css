@@ -1,0 +1,33 @@
+body {
+    background-color: lightseagreen;
+}
+
+.title {
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+}
+
+.stir {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.i-shaker {
+    color: white;
+    font-size: 240px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+    padding-top: 20vh;
+}
