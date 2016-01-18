@@ -50,6 +50,8 @@ body {
 .stick {
     text-align: center;
     margin-top: -9.5rem;
+    -ms-animation: spin 10s infinite ease;
+    -webkit-animation: spin 10s infinite ease;
     animation: spin 10s infinite ease;
 }
 
@@ -57,10 +59,14 @@ body {
 @keyframes spin {
  
     50% {
+        -ms-transform: scale(.95, .95);
+        -webkit-transform: scale(.95, .95);
         transform: scale(.95, .95);
     }
     
     100% {
+        -ms-transform: scale(1.1, 1.1);
+        -webkit-transform: scale(1.1, 1.1);
         transform: scale(1.1, 1.1);
     }
     
