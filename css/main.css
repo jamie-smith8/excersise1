@@ -27,7 +27,96 @@ body {
     text-align: center;
 }
 
-.icons {
+
+
+.martini {
     text-align: center;
     padding-top: 20vh;
+    animation: shk-shk 1s ease infinite;
+}
+
+.martini:hover {
+    animation: none;
+}
+
+.i-spoon {
+    color: white;
+    text-align: center;
+    font-size: 330px;
+}
+
+.stick {
+    text-align: center;
+    margin-top: -9.5rem;
+}
+
+
+
+@keyframes shk-shk {
+    
+    7% {
+        transform: rotate(10deg) translateY(2rem);
+   
+    }
+    
+    14% {
+        transform: rotate(10deg) translateY(-2rem);
+    }
+    
+    21% {
+        transform: rotate(10deg) translateY(2rem);
+    }
+    
+    28% {
+        transform: rotate(10deg) translateY(-2rem);
+    }
+    
+    35% {
+        transform: rotate(10deg) translateY(2rem);
+    }
+    
+    41% {
+        transform: rotate(10deg) translateY(-2rem);
+    }
+    
+    48% {
+        transform: rotate(-10deg) translateY(2rem);
+    }
+    
+    55% {
+        transform: rotate(-10deg) translateY(-2rem);
+    }
+    
+    62% {
+        transform: rotate(-10deg) translateY(2rem);
+    }
+    
+    50% {
+        transform: rotate(-10deg) translateY(-2rem);
+    }
+    
+    69% {
+      transform: rotate(-10deg) translateY(2rem);  
+    }
+    
+    76% {
+      transform: rotate(-10deg) translateY(-2rem);  
+    }
+    
+    83% {
+       transform: rotate(-10deg) translateY(2rem);  
+    }
+    
+    90% {
+        transform: rotate(20deg);
+    }
+    
+    95% {
+        transform: rotate(-20deg);
+    }
+    
+    100% {
+        transform: rotate(20deg);
+    }
+    
 }
